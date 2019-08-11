@@ -41,3 +41,7 @@ Fixture Upload would not be possible with these great Open Source projects.
 * https://github.com/nodeca/pica/blob/master/dist/pica.min.js
 * https://fengyuanchen.github.io/cropperjs/
 * https://codepen.io/joezimjs/pen/yPWQbd
+
+### Support
+
+Fixture Upload is part of our incredible website builder - Fixture.  Learn more at https://fixture.app
