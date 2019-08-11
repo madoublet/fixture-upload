@@ -37,7 +37,7 @@ See a demo and watch a video of Fixture Upload here: https://fixture.app/open-so
 
 Fixture Upload would not be possible with these great Open Source projects.
 
-http://camanjs.com/
-https://github.com/nodeca/pica/blob/master/dist/pica.min.js
-https://fengyuanchen.github.io/cropperjs/
-https://codepen.io/joezimjs/pen/yPWQbd
+* http://camanjs.com/
+* https://github.com/nodeca/pica/blob/master/dist/pica.min.js
+* https://fengyuanchen.github.io/cropperjs/
+* https://codepen.io/joezimjs/pen/yPWQbd
