@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<html>
+
+<head>
+<title>Upload Sample</title>
+<link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.5/cropper.min.css" rel="stylesheet">
+<link type="text/css" href="dist/upload.css" rel="stylesheet">
+<style>
+
+    body {
+        margin: 0;
+        padding: 50px;    
+        font-family: Helvetica,Arial,sans-serif;
+        background-color: #f8f8f8;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="app-upload"></div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.5/cropper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pica/5.1.0/pica.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.js"></script>
+<script src="dist/upload.js"></script>
+<script>
+
+    let el = document.querySelector('.app-upload');
+
+    let upload = new Upload(
+        // upload el
+        el, 
+        // generate url
+        function(file, done) {
+
+            console.log('[debug] generate url');
+            console.log(file);
+
+            var url = "https://some-s3-url/";
+            var method = "PUT"
+            done(url, method);
+        },
+        // complete
+        function(file) {},
+        // error
+        function(status, text) {}
+    );
+
+</script>
+
+</html>
